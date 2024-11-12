@@ -58,7 +58,7 @@ function SimpleCarousel() {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "green" }}
+        style={{ ...style, display: "block", background: "red" }}
         onClick={onClick}
       />
     );
@@ -69,21 +69,21 @@ function SimpleCarousel() {
       <Slider {...settings}>
         <div>
           <img
-            src="../src/assets/hero2.jpg"
+            src="../src/assets/sponsor2.jpg"
             alt="slide1"
             className="w-full max-h-200 object-cover rounded-md transition-transform duration-300 transform hover:scale-110"
           />
         </div>
         <div>
           <img
-            src="../src/assets/banner.jpg"
+            src="../src/assets/sponsorship1.jpg"
             alt="slide2"
             className="w-full max-h-200 object-cover rounded-md transition-transform duration-300 transform hover:scale-110"
           />
         </div>
         <div>
           <img
-            src="../src/assets/banner3.jpg"
+            src="../src/assets/events.jpg"
             alt="slide3"
             className="w-full max-h-200 object-cover rounded-md transition-transform duration-300 transform hover:scale-110"
           />
